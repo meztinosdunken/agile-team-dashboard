@@ -1,0 +1,33 @@
+{
+  "name": "agile-team-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard for agile teams to manage their projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/agile-team-dashboard.git"
+  },
+  "keywords": ["agile", "dashboard", "project management"],
+  "author": "Your Name",
+  "license": "MIT", 
+  "bugs": {
+    "url": "https://github.com/your-username/agile-team-dashboard/issues"
+  },
+  "homepage": "https://github.com/your-username/agile-team-dashboard#readme"
+}
