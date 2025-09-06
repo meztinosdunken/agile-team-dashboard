@@ -13,7 +13,7 @@ app.use(express.json());
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
-    res.status(500).send({ error: 'Something went wrong!' });
+    res.status(500).send({ error: 'Something went wrong!', details: err.message });
 });
 
 // Connect to MongoDB
